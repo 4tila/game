@@ -1,3 +1,6 @@
+#        Gera um mapa usando as intrucoes do arquivo map
+#        No map as duas primeiras linhas sao nome do mapa e tamanho (eixo y) do mapa
+#        No map tem as coordenadas de inicio e fim das retas que serao colocadas no mapa (a, b, c, d)
 from random import randint
 N=320
 with open('map', 'r') as f: inst = f.read().split('\n')
